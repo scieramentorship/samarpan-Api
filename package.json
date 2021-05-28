@@ -1,0 +1,26 @@
+{
+  "name": "samarpan-API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "offline": "sls offline start --skipCacheInvalidation",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "serverless": "^1.80.0",
+    "serverless-http": "^2.3.0",
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "serverless-domain-manager": "^3.3.0",
+    "serverless-offline": "^5.12.1"
+  }
+}
