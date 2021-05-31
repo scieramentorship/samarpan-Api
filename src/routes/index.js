@@ -10,7 +10,7 @@ const medicinesRouter = require ('./medicines.routes')
 const labtestRouter = require ('./labtest.routes')
 const patientRouter = require ('./patient.routes')
 const caseregisterRouter = require ('./caseregister.routes')
-
+const loginRouter = require ('./login.routes')
 
 // router.use('/company', companyRouter)
 router.use('/dashboard', dashboardRouter)
@@ -21,7 +21,7 @@ router.use('/medicines', medicinesRouter)
 router.use('/labtest', labtestRouter)
 router.use('/patient', patientRouter)
 router.use('/casesheet', caseregisterRouter)
-
+router.use('/login', loginRouter)
 
 
 module.exports = router

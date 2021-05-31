@@ -22,7 +22,7 @@ if(err) {
   result(err, null);
 }
 else{
-  console.log(res.insertId);
+  console.log(newOrg);
   result(null, res.insertId);
 }
 });
